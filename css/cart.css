@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cart{
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 23em;
+    min-height: 14em;
+    margin-left: 35%;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border-radius: 15px;
+    border: solid 2px #ffff;
+    transition: 0.7s ease;
+    box-shadow: 0 30px 15px rgba(1, 1, 1, 50%);
+    
+}
+.cart:hover{
+    transform: scale(1.1);
+}
+.imgg img{
+    width: 100%;
+
+}
